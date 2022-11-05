@@ -14,7 +14,7 @@ const routes = {
   password: '/password',
   orderUrl: (tracking_number: string) => `/orders/${tracking_number}`,
   //productUrl: (slug: string) => `/products/${slug}`,
-  productUrl: (slug: string) => `https://02-casino.777.dog/api/play/${slug}`,
+  productUrl: (slug: string) => `https://casino-demo.app-0.casinoman.app/api/play/${slug}`,
   tagUrl: (slug: string) => `/products/tags/${slug}`,
   shopUrl: (slug: string) => `/providers/${slug}`,
 };
